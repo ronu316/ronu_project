@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThreadCo - Wear the Code. Live the street.</title>
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="icon" type="img/jpeg" href="data:image/jpeg;base64,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">
+</head>
+
+<body>
+    <header>
+        <h1>ThreadCo</h1>
+        <!-- <p>
+            <em>Wear the Code. Live the Street </em>
+        </p> -->
+        <nav>
+            <ul class="random">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#week-drop">Products</a></li>
+                <li><a href="#best-seller">Product Detail</a></li>
+                <li><a href="#get-early">Contact</a></li>
+                <li><a id="cart" href="">Cart(0)</a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+    <main>
+        <section id="hero">
+            <div class="left-hero">
+                <h2>New Drop. <br><span id="gratient text">Every Friday.</span></h2>
+                <p>ThreadCo is not just clothing - it is a statement. Born on the streets of Delhi, built for every city
+                    in
+                    India.
+                    <strong>limited
+                        drops. No restocks. Ever</strong>
+                </p>
+                <p>We make streetwear that hits different - 100% cotton, oversized fits, and designs that actually mean
+                    something.</p>
+
+                <div id="cta">
+                    <a href="" class="btn1">Shop Now</a>
+                    <a href="" class="btn2">View Lookbook</a>
+                </div>
+            </div>
+            <div class="right-hero">
+                <div class="glow orb1"></div>
+                <div class="glow orb2"></div>
+                <img src="product 1.jpg" alt="">
+            </div>
+
+
+        </section>
+        
+
+
+        <section id="best-seller">
+            <h2>Bestsellers This Month</h2>
+            <table>
+                <tr>
+                    <th colspan="5">&#127942;ThreadCo Top Picks - October 2025</th>
+
+                </tr>
+                <tr>
+                    <th>Rank</th>
+                    <th>Product Name</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                    <th>Rating</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Oversized Drop Tee Vol.3</td>
+                    <td>T-Shirts</td>
+                    <td>&#8377; 799</td>
+                    <td>&#9733;&#9733;&#9733;&#9733;&#9733;(4.9)</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Street Hoodie - Olive</td>
+                    <td>Hoodies</td>
+                    <td>&#8377; 1499 </td>
+                    <td>&#9733;&#9733;&#9733;&#9733;&#9734;(4.7)</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Utility Cargo - Beige</td>
+                    <td>Cargo Pants</td>
+                    <td>&#8377; 1799</td>
+                    <td>&#9733;&#9733;&#9733;&#9733;&#9734;(4.6)</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>TC 6-Panel Cap</td>
+                    <td>Caps</td>
+                    <td>&#8377; 499</td>
+                    <td>&#9733;&#9733;&#9733;&#9733;&#9734;(4.5)</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Monogram Tote Bag</td>
+                    <td>Accessories</td>
+                    <td>&#8377; 349</td>
+                    <td>&#9733;&#9733;&#9733;&#9733;&#9734;(4.4)</td>
+                </tr>
+            </table>
+
+        </section>
+
+
+
+
+        <section id="whyThreadGo">
+            <h2>Why ThreadCo?</h2>
+            <p>Because you deserve more than fast fashion. Here is what we stand for:</p>
+
+            <ul>
+                <li><strong>100% Cotton Fabric</strong>- Breathable, soft, and built to last</li>
+                <li><strong>Limited Drops</strong>- Never overproduced. Once it is gone, it is gone.</li>
+                <li><strong>Ships in 48 Hours</strong>- Order today, wear this weekend</li>
+                <li><strong>Free Returns within 7 Days</strong>- No questions asked</li>
+                <!-- <li><strong>Made in India</strong>- Supporting local manufacturers since Day 1</li> -->
+            </ul>
+            <h3>Our Promise</h3>
+            <dl>
+                <section>
+                    <dt>Quality</dt>
+                    <dd>Every piece is tested for shrinkage, color fastness, and stitching quality before it ships.</dd>
+                </section>
+                <section>
+                    <dt>Sustainability</dt>
+                    <dd>We use GOTS-certified cotton and minimize packaging waste. Planet first.</dd>
+                </section>
+                <section>
+                    <dt>Community</dt>
+                    <dd>Every drop supports an independent Indian artist or designer. Style with purpose.</dd>
+
+                </section>
+            </dl>
+        </section>
+        <section id="get-early">
+            <h2>Get Early Drop Access</h2>
+            <p>Drop notifications go out <strong>24 hours early</strong> to our list. Be first. Never miss a drop.</p>
+            <form action="" target="_blank">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" placeholder="you@example.com" name="email">
+                <button>Notify me</button>
+
+            </form>
+            <br>
+            <small>No spam. Unsubscribe anytime. We hate spam too.</small>
+
+
+
+        </section>
+
+    </main>
+    <footer id="footer">
+        <h3>&copy; 2025 ThreadCo. All rights reserved.</h3>
+        <p>
+            <em>Wear the Code. Live the Street.</em>
+        </p>
+        
+
+    </footer>
+
+
+
+</body>
+
+</html>
